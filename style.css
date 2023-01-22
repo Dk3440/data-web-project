@@ -1,0 +1,756 @@
+*
+{
+    margin: 0%;padding: 0%;box-sizing: border-box;
+}
+#container
+{
+    max-width: 100%;
+}
+.header
+{
+    background-color: #0c0f38;
+    display: flex;
+}
+.logo
+{
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 13%;
+    margin-bottom: 2%;
+}
+#logo
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.navlinks
+{
+    display: flex;
+    align-items: center;
+   margin-left: 30%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+#navul
+{
+    display: flex;
+}
+#navli
+{
+    list-style: none;
+}
+
+#nava
+{
+    color: white;
+    padding: 10px;
+    /* background-color: blueviolet; */
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#nava:hover
+{
+    color: #fdd430;
+}
+#nava2
+{
+    color: #fdd430 ;
+    padding: 10px;
+    /* background-color: blueviolet; */
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#nava:hover
+{
+    color: #fdd430;
+}
+.homea
+{
+    color: #fdd430;
+}
+.mainbody
+{
+   
+    background-color: #0c0f38;
+    padding-bottom: 5%;
+}
+.mainpart
+{
+   
+    margin-right: 13%;
+    margin-left: 13%;
+}
+.maincontent
+{
+    display: flex;
+    max-width: 80%;
+    
+}
+.part1
+{
+    max-width: 50%;
+}
+.part2
+{
+    max-width: 60%;
+}
+#mainpic
+{
+    max-width: 130%;
+    height: 100%;
+}
+
+#mainhead
+{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+#mainhead2
+{
+    font-size: 2.5rem;
+    color: #fdd430;
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+}
+#mainhead3
+{
+    color: white;
+    font-size: 1.1rem;
+    
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 5%;
+    padding-left: 2%;
+}
+
+    
+    .myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:16px 51px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#container1
+{
+    max-width: 100%;
+}
+.mainbody2
+{
+    max-width: 70%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.row
+{
+    padding-top: 5%;
+}
+.imgbox
+{
+    text-align: center;
+}
+#rowh2
+{
+    font-size: 2.8rem;
+    color: #0c0f38;
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+#secondimg
+{
+    width: 50%;
+    height: auto;
+    padding-bottom: 3%;
+}
+#imglorem
+{
+    font-size: 1.2rem;
+    color: #0c0f38;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5%;
+}
+.myButton2 {
+	box-shadow:inset 0px 1px 0px 0px #161716;
+	background:linear-gradient(to bottom, #050505 5%, #131513 100%);
+	background-color:#000000;
+	border:1px solid #1b1c1a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:11px 31px;
+	text-decoration:none;
+    margin-bottom: 8%;
+    height: 5%;
+    width: 15%;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #fafcfa 5%, #fcfefb 100%);
+	background-color:#fbfef9;
+    color: black;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+#container3
+{
+    max-width: 100%;
+}
+.part3
+{
+     background-color: #0c0f38;
+}
+.mainbody3
+{
+    background-color: #0c0f38;
+    max-width: 70%;
+    padding-top: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+.row1
+{
+   
+    padding-top: 5%;
+    text-align: center;
+}
+#row1h2
+{
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+#row1p
+{
+    font-size: 1.1rem;
+    padding: 1% 10% 7% 10%;
+    color: white;
+}
+.Servicebox
+{
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1%;
+}
+.Servicebox:hover
+{
+    background: #8308eb;
+    transition: all linear 0.5s;
+    cursor: pointer;
+}
+#service1
+{
+    height: auto;
+    width: 30%;
+    margin-top: 8%;
+}
+#serviceh3
+{
+    font-size: 1.5rem;
+    color: white;
+    padding: 5%;
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#servicep
+{
+    color: white;
+    font-family: Poppins;
+    padding: 6%;
+} 
+.part3box
+{
+    display: flex;
+}
+.myButton3 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#000000;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:11px 31px;
+	text-decoration:none;
+    margin-top: 5%;
+    margin-left: 40%;
+    height: 10%;
+    width: 15%;
+}
+.myB utton3:hover {
+	background:linear-gradient(to bottom, #8308eb 5%, #8308eb 100%);
+	background-color:#fbfef9;
+    color: rgb(255, 255, 255);
+    transition: all linear 0.5s;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+#container4
+{
+    max-width: 100%;
+}
+/* .part4
+{
+     background-color: aquamarine;
+} */
+.mainbody4
+{
+    /* background-color: aquamarine; */
+    max-width: 70%;
+    padding-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+.row2
+{
+   
+    padding-top: 3%;
+    text-align: center;
+}
+#row2h2
+{
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0c0f38;
+    
+}
+#row2p
+{
+    font-size: 1.1rem;
+    padding: 1% 10% 7% 10%;
+    color: #0c0f38;
+}  
+.part4box
+{
+    display: flex;
+}  
+.Servicebox2
+{
+    border: 0px solid black;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.26);
+    text-align: center;
+    border-radius: 20px;
+    margin: 3%;
+} 
+.Servicebox2:hover
+{
+   transform: scale(1.1);
+   transition: all linear 0.5s;
+} 
+#service2
+{
+    height: auto;
+    width: 30%;
+    margin-top: 8%;
+}  
+#serviceh32
+{
+    font-size: 1.5rem;
+    color: #0c0f38;
+    padding: 5%;
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#servicep2
+{
+    color: #0c0f38;
+    font-family: Poppins;
+    padding: 6%;
+} 
+.myButton4 {
+	box-shadow:inset 0px 1px 0px 0px #161716;
+	background:linear-gradient(to bottom, #050505 5%, #131513 100%);
+	background-color:#000000;
+	border:1px solid #1b1c1a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:11px 31px;
+	text-decoration:none;
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+.myButton4:hover {
+	background:linear-gradient(to bottom, #8308eb 5%, #8308eb 100%);
+	background-color:#8308eb;
+    color: black;
+    transition: all linear 0.5s;
+}
+.myButton4:active {
+	position:relative;
+	top:1px;
+}
+.name1
+{
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+#name
+{
+    /* height: 8vh; */
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 4%;
+   
+}
+.email1
+{
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+#email
+{
+    /* height: 8vh; */
+    padding: 4%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.phone1
+{
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+#phone
+{
+    /* height: 8vh; */
+    padding: 4%;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.textarea1
+{
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    
+}
+#textarea
+{
+    /* height: 8vh; */
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 4%;
+}
+.formbox
+{
+    /* max-width: 100%; */
+   background-color: #0c0f38;
+   padding: 5%;
+   border-radius: 25px;
+   margin-bottom: -55%;
+}
+.mainform
+{
+  max-width: 40%;
+  display: block;
+   margin: auto;
+}
+.myButton5 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:25px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-left: 37%;
+}
+.myButton5:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton5:active {
+	position:relative;
+	top:1px;
+}
+
+    
+.footer {
+    font-family: Poppins;
+    background: #0c0f38;
+}
+
+.cont {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.cont h3 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 30px 0px 0px 0px;
+}
+
+.cont span {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 30px 0px 30px 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.cont p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+   padding-top: 2%;
+   padding-bottom: 3%;
+   padding-left: 15%;
+   padding-right: 15%;
+}
+
+.copyright {
+    
+    background: #fff;
+}
+
+.copyright p {
+    color: #1e1e1e;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.copyright a {
+    color: #1e1e1e;
+}
+
+.copyright a:hover {
+    color: #0c0f38;
+}
+        
+
+/* mediaquery */
+@media only screen and (max-width:600px) {
+    .logo
+{
+    /* padding: 10px; */
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.navlinks
+{
+    display: none;
+   
+}
+.maincontent
+{
+   flex-direction: column;
+}
+.mainpart
+{
+   
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.part1
+{
+    max-width: 100%;
+}
+.part2
+{
+    max-width: 100%;
+}
+.mainbody2
+{
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#rowh2 {
+    font-size: 1.8rem;
+    color: #0c0f38;
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+.myButton2 {
+    box-shadow: inset 0px 1px 0px 0px #161716;
+    background: linear-gradient(to bottom, #050505 5%, #131513 100%);
+    background-color: #000000;
+    border: 1px solid #1b1c1a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 11px 31px;
+    text-decoration: none;
+    margin-bottom: 8%;
+    height: 10%;
+    width: 30%;
+}
+#row1h2 {
+    font-size: 2.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#row1p {
+    font-size: 1.1rem;
+    padding: 5% 3% 7% 3%;
+    color: white;
+}
+.part3box {
+   flex-direction: column;
+}
+.myButton3 {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #000000;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 11px 31px;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 30%;
+    height: 10%;
+    width: 40%;
+}
+#row2h2 {
+    font-size: 2.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0c0f38;
+}
+#row2p {
+    font-size: 1.1rem;
+    padding: 5% 3% 7% 2%;
+    color: #0c0f38;
+}
+.part4box {
+    flex-direction: column;
+}
+.mainbody4 {
+    /* background-color: aquamarine; */
+    max-width: 100%;
+    padding-top: 3%;
+    margin-left: 2%;
+    margin-right: 3%;
+    padding-bottom: 3%;
+}
+.myButton4 {
+    box-shadow: inset 0px 1px 0px 0px #161716;
+    background: linear-gradient(to bottom, #050505 5%, #131513 100%);
+    background-color: #000000;
+    border: 1px solid #1b1c1a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 11px 31px;
+    text-decoration: none;
+    margin-top: 8%;
+    margin-left: 38%;
+    margin-bottom: 10%;
+}
+.mainform {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+.mainform {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+.cont span {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 5% 2%;
+    display: inline-block;
+    font-weight: bold;
+}
+.cont p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.cont h3 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 25% 5% 5%;
+}
+}
